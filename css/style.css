@@ -1,0 +1,266 @@
+/* =====================================
+    Template Name: Minimo || HTML Template
+    Author: md sagor ali 
+    Version: 1 0.0
+    Created: 24 January 2021
+    File Description: Main Css file of the template   
+
+========================================*/
+
+/*=======================================
+    01.General
+      
+    
+========================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Playfair+Display&family=Ubuntu:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding:0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color:#626262;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 30px;  
+    margin:0;
+}
+
+p{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:#626262;
+    margin:0;
+}
+a{
+    font-size: 14px;
+    color:#626262;
+    text-decoration: none;
+}
+
+.catagoires h4{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #b4ad9e;
+}
+
+
+
+/* ===================================
+        HEADER STYLE START HERE
+===================================  */
+header{
+    padding:70px 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;    
+    overflow: hidden;
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+
+.logo a{
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #000;
+    letter-spacing: 5px;
+}
+.menu{
+    width: 70%;
+    float: right;
+}
+
+nav ul{
+    list-style: none;
+    float: right;
+    margin:0;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    text-transform: uppercase;
+    padding: 0 60px;
+}
+nav ul li:last-child a{
+    padding-right: 0;
+}
+nav ul li a:hover{
+    color:#000;
+}
+
+/* ===================================
+        BANNER STYLE START HERE
+===================================  */
+.banner{
+    background-image: url(../images/ali.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+}
+
+/* ===================================
+        BLOG STYLE START HERE
+===================================  */
+#blog{
+    padding: 95px 0;
+}
+.blog-container{   
+    width: 70%;
+    margin: 0 auto;
+}
+.title h2{
+    padding:30px 0;
+}
+.content p{
+    padding:35px 0 50px;
+}
+
+/* ===========================================
+        BLOG-THUMBNAIL STYLE START HERE
+======================================== */
+#blog-thumbnail{
+    padding: 70px 0;
+}
+.blog-wrapper{
+    overflow: hidden;
+}
+.blog-left{
+    width: 45%;
+    float: left;
+}
+.blog-right{
+    width: 45%;
+    float: right;
+    
+}
+.thumbnail img{
+    width: 100%;
+}
+.blog-left .catagoires{
+    padding:20px 0;
+}
+.blog-left .title h2{
+    padding-top:0;
+}
+.blog-left .content p{
+    padding:0;
+    padding-bottom: 70px;
+}
+.blog-right .catagoires{
+    padding:20px 0;
+}
+.blog-right .title h2{
+    padding-top:0;
+}
+.blog-right .content p{
+    padding:0;
+    padding-bottom: 70px;
+}
+/* ===========================================
+        BLOG-THUMBNAIL STYLE END HERE
+======================================== */
+
+
+/* ===========================================
+        NEWLETTERSTYLE START HERE
+======================================== */
+#newsletter{
+    background-color:#f0f0f0;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.newsletter-title h2{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #333;
+    padding-bottom: 50px;
+}
+.newsletter-form{
+    width: 40%;
+    margin: 0 auto;
+    position: relative;
+}
+.newsletter-form input{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #000000;
+    width: 100%;
+    padding: 15px 10px;
+}
+.newsletter-form input:focus{
+    outline: none;
+    transition: 0.3s;
+    border-bottom: 1px solid #626262;
+}
+.newsletter-form input::placeholder{
+    /* text-transform: capitalize; */
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #626262;
+}
+.submit-button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(15px,15px);
+}
+button{
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+button:focus{
+   outline: none;
+}
+/* ===========================================
+        NEWLETTER STYLE END HERE
+======================================== */
+
+/* ===========================================
+        BUTTON STYLE START HERE
+======================================== */
+.button button{
+    border: none ;
+    border: 1px solid #626262;
+    padding: 20px 30px ;
+    text-transform: capitalize;
+    font-size: 20px;
+    background-color: transparent;
+}
+.button {
+    text-align: center;
+}
+.button button:hover{
+    background-color: #626262;
+    color: #ffffff;
+    transition: 0.3s all ease-in-out;
+}
+.button button :focus{
+    outline: none;
+    cursor: pointer;
+}
